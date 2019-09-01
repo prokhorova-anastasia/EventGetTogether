@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D08BBE8231C072000F78B1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D08BBE7231C072000F78B1F /* AppDelegate.swift */; };
+		4D08BBEF231C072400F78B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D08BBEE231C072400F78B1F /* Assets.xcassets */; };
+		4D08BBF2231C072400F78B1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D08BBF0231C072400F78B1F /* LaunchScreen.storyboard */; };
+		4D08BBFF231C0D0700F78B1F /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D08BBFD231C0D0700F78B1F /* StartViewController.swift */; };
+		4D08BC00231C0D0700F78B1F /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D08BBFE231C0D0700F78B1F /* StartViewController.xib */; };
+		4D08BC03231C0F7500F78B1F /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D08BC01231C0F7500F78B1F /* EventTableViewCell.swift */; };
+		4D08BC04231C0F7500F78B1F /* EventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D08BC02231C0F7500F78B1F /* EventTableViewCell.xib */; };
+		4D08BC07231C142E00F78B1F /* AboutEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D08BC05231C142E00F78B1F /* AboutEventViewController.swift */; };
+		4D08BC08231C142E00F78B1F /* AboutEventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D08BC06231C142E00F78B1F /* AboutEventViewController.xib */; };
+		4D08BC0B231C236C00F78B1F /* AppointmentBookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D08BC09231C236C00F78B1F /* AppointmentBookingViewController.swift */; };
+		4D08BC0C231C236C00F78B1F /* AppointmentBookingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D08BC0A231C236C00F78B1F /* AppointmentBookingViewController.xib */; };
+		4D08BC0F231C299200F78B1F /* ChooseHallTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D08BC0D231C299200F78B1F /* ChooseHallTableViewCell.swift */; };
+		4D08BC10231C299200F78B1F /* ChooseHallTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D08BC0E231C299200F78B1F /* ChooseHallTableViewCell.xib */; };
+		4D08BC13231C47E100F78B1F /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D08BC11231C47E100F78B1F /* FilterViewController.swift */; };
+		4D08BC14231C47E100F78B1F /* FilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D08BC12231C47E100F78B1F /* FilterViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D08BBE4231C072000F78B1F /* EventGetTogether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventGetTogether.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D08BBE7231C072000F78B1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D08BBEE231C072400F78B1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D08BBF1231C072400F78B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D08BBF3231C072400F78B1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D08BBFD231C0D0700F78B1F /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		4D08BBFE231C0D0700F78B1F /* StartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
+		4D08BC01231C0F7500F78B1F /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		4D08BC02231C0F7500F78B1F /* EventTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventTableViewCell.xib; sourceTree = "<group>"; };
+		4D08BC05231C142E00F78B1F /* AboutEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutEventViewController.swift; sourceTree = "<group>"; };
+		4D08BC06231C142E00F78B1F /* AboutEventViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutEventViewController.xib; sourceTree = "<group>"; };
+		4D08BC09231C236C00F78B1F /* AppointmentBookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentBookingViewController.swift; sourceTree = "<group>"; };
+		4D08BC0A231C236C00F78B1F /* AppointmentBookingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppointmentBookingViewController.xib; sourceTree = "<group>"; };
+		4D08BC0D231C299200F78B1F /* ChooseHallTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseHallTableViewCell.swift; sourceTree = "<group>"; };
+		4D08BC0E231C299200F78B1F /* ChooseHallTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChooseHallTableViewCell.xib; sourceTree = "<group>"; };
+		4D08BC11231C47E100F78B1F /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		4D08BC12231C47E100F78B1F /* FilterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D08BBE1231C072000F78B1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D08BBDB231C072000F78B1F = {
+			isa = PBXGroup;
+			children = (
+				4D08BBE6231C072000F78B1F /* EventGetTogether */,
+				4D08BBE5231C072000F78B1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D08BBE5231C072000F78B1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D08BBE4231C072000F78B1F /* EventGetTogether.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D08BBE6231C072000F78B1F /* EventGetTogether */ = {
+			isa = PBXGroup;
+			children = (
+				4D08BBE7231C072000F78B1F /* AppDelegate.swift */,
+				4D08BBFD231C0D0700F78B1F /* StartViewController.swift */,
+				4D08BBFE231C0D0700F78B1F /* StartViewController.xib */,
+				4D08BC01231C0F7500F78B1F /* EventTableViewCell.swift */,
+				4D08BC02231C0F7500F78B1F /* EventTableViewCell.xib */,
+				4D08BC05231C142E00F78B1F /* AboutEventViewController.swift */,
+				4D08BC06231C142E00F78B1F /* AboutEventViewController.xib */,
+				4D08BBEE231C072400F78B1F /* Assets.xcassets */,
+				4D08BC09231C236C00F78B1F /* AppointmentBookingViewController.swift */,
+				4D08BC0A231C236C00F78B1F /* AppointmentBookingViewController.xib */,
+				4D08BC0D231C299200F78B1F /* ChooseHallTableViewCell.swift */,
+				4D08BC0E231C299200F78B1F /* ChooseHallTableViewCell.xib */,
+				4D08BBF0231C072400F78B1F /* LaunchScreen.storyboard */,
+				4D08BBF3231C072400F78B1F /* Info.plist */,
+				4D08BC11231C47E100F78B1F /* FilterViewController.swift */,
+				4D08BC12231C47E100F78B1F /* FilterViewController.xib */,
+			);
+			path = EventGetTogether;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D08BBE3231C072000F78B1F /* EventGetTogether */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D08BBF6231C072400F78B1F /* Build configuration list for PBXNativeTarget "EventGetTogether" */;
+			buildPhases = (
+				4D08BBE0231C072000F78B1F /* Sources */,
+				4D08BBE1231C072000F78B1F /* Frameworks */,
+				4D08BBE2231C072000F78B1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EventGetTogether;
+			productName = EventGetTogether;
+			productReference = 4D08BBE4231C072000F78B1F /* EventGetTogether.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D08BBDC231C072000F78B1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = N;
+				TargetAttributes = {
+					4D08BBE3231C072000F78B1F = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 4D08BBDF231C072000F78B1F /* Build configuration list for PBXProject "EventGetTogether" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D08BBDB231C072000F78B1F;
+			productRefGroup = 4D08BBE5231C072000F78B1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D08BBE3231C072000F78B1F /* EventGetTogether */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D08BBE2231C072000F78B1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D08BC0C231C236C00F78B1F /* AppointmentBookingViewController.xib in Resources */,
+				4D08BC04231C0F7500F78B1F /* EventTableViewCell.xib in Resources */,
+				4D08BBF2231C072400F78B1F /* LaunchScreen.storyboard in Resources */,
+				4D08BC08231C142E00F78B1F /* AboutEventViewController.xib in Resources */,
+				4D08BC10231C299200F78B1F /* ChooseHallTableViewCell.xib in Resources */,
+				4D08BBEF231C072400F78B1F /* Assets.xcassets in Resources */,
+				4D08BC14231C47E100F78B1F /* FilterViewController.xib in Resources */,
+				4D08BC00231C0D0700F78B1F /* StartViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D08BBE0231C072000F78B1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D08BC13231C47E100F78B1F /* FilterViewController.swift in Sources */,
+				4D08BC03231C0F7500F78B1F /* EventTableViewCell.swift in Sources */,
+				4D08BC07231C142E00F78B1F /* AboutEventViewController.swift in Sources */,
+				4D08BC0B231C236C00F78B1F /* AppointmentBookingViewController.swift in Sources */,
+				4D08BC0F231C299200F78B1F /* ChooseHallTableViewCell.swift in Sources */,
+				4D08BBE8231C072000F78B1F /* AppDelegate.swift in Sources */,
+				4D08BBFF231C0D0700F78B1F /* StartViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D08BBF0231C072400F78B1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D08BBF1231C072400F78B1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D08BBF4231C072400F78B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D08BBF5231C072400F78B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D08BBF7231C072400F78B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EventGetTogether/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qwerty.EventGetTogether;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D08BBF8231C072400F78B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EventGetTogether/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qwerty.EventGetTogether;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D08BBDF231C072000F78B1F /* Build configuration list for PBXProject "EventGetTogether" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D08BBF4231C072400F78B1F /* Debug */,
+				4D08BBF5231C072400F78B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D08BBF6231C072400F78B1F /* Build configuration list for PBXNativeTarget "EventGetTogether" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D08BBF7231C072400F78B1F /* Debug */,
+				4D08BBF8231C072400F78B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D08BBDC231C072000F78B1F /* Project object */;
+}
