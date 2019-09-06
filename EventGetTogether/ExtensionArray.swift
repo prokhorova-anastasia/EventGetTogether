@@ -1,10 +1,4 @@
-//
-//  ExtensionArray.swift
-//  EventGetTogether
-//
-//  Created by N on 05/09/2019.
-//  Copyright © 2019 N. All rights reserved.
-//
+
 
 import Foundation
 
